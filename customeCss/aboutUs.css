@@ -1,0 +1,183 @@
+/* Navbar Section*/
+.navbar{
+
+    background-color: rgb(26, 190, 114);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-toggler {
+
+    background-color: rgb(105, 104, 98);
+    border-color: rgb(247, 243, 240);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 243, 240, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase; 
+   font-weight: 600;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    padding: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-right: 15px;
+    
+}
+
+
+.navbar-nav .nav-item:hover .nav-link {
+   
+    background-color: rgb(247, 199, 78);
+    border-radius: 4px;
+    box-shadow: #000;
+    border-bottom: none;
+    color: #fff;
+}
+
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color: rgb(212, 154, 7);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.dropdown-menu > li a:hover, .dropdown-menu > li.show {
+    background: rgb(211, 164, 45);
+    color: white;
+}
+
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color:  rgb(211, 164, 45);
+}
+
+
+
+.container-fluid {
+    background-color: #fff;
+    min-height: 100vh;
+    overflow: hidden;
+        
+}
+
+
+
+.navbar-nav .nav-item:hover .nav-link {
+   
+    background-color: darkgoldenrod;
+    border-radius: 4px;
+    box-shadow: #000;
+    border-bottom: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    navbar-light .navbar-nav .nav-link {
+    
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        padding: 5px;
+        border-bottom: none;
+    }
+}
+
+
+
+
+/*about us section */
+
+
+.aboutUsBlock{
+    margin-top: 2px;
+    border: 3px solid #99cc66;
+    margin-bottom: 20px;
+    background-color: #f5e8e4;
+}
+
+.heading{
+
+    color: #fff;
+    text-align: left;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px;
+    background: linear-gradient(to right, #f7b373,#f8a993 , #f7b373 );
+   font-size: 20px;
+   text-transform: uppercase;
+   
+}
+
+.aboutUsText{
+    padding: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    
+}
+
+
+
+/* Footer Section */
+
+
+body,html{
+   
+    margin: 0;
+    height: 100%;
+}
+
+
+
+
+
+  .footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    color: white;
+    
+  background: linear-gradient(to right, rgb(78, 78, 78), rgb(163, 163, 162) , rgb(67, 68, 68) );
+    
+  } 
+
+
+  .footer-content{
+
+    text-align: left;
+    color: #fff;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    text-transform: capitalize;
+  }
+
+
+  .footer-img{
+
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
